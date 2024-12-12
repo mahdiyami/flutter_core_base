@@ -1,0 +1,24 @@
+# dart pub global run index_generator
+
+
+index_generator:
+  exclude:
+    - '**.g.dart'
+    - '**.p.dart'
+  # Define the paths of the folders in which to generate the index files
+  indexes:
+    - path: lib
+      # You can define specific filters for this index
+      #      include:
+      #        # You can define specific export folders paths
+      #        - 'src/**'
+      # You can define specific export dart packages in index file.
+      exports:
+        - package: package:json_annotation/json_annotation.dart
+
+        - package: package:injectable/injectable.dart
+        - package: package:dartz/dartz.dart
+          show:
+            - Either
+            - Right
+            - Left

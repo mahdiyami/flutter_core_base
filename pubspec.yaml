@@ -10,30 +10,26 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_bloc: ^8.1.5
-  injectable: ^2.4.1
-  freezed: ^2.5.2
-  json_annotation: ^4.9.0
-  formz: ^0.7.0
+  injectable: ^2.4.4
+  dio: ^5.7.0
+  connectivity_plus: ^6.0.5
+  cross_file: ^0.3.4+2
   equatable: ^2.0.5
+  logger: ^2.4.0
   dartz: ^0.10.1
-  dio: ^5.5.0+1
-  cross_file: ^0.3.4+1
-  connectivity_plus: ^6.0.3
-  package_info_plus: ^8.0.0
-  logger: ^2.3.0
-  universal_image_flutter:
-    git: https://github.com/mahdiyami/universal_image_flutter.git
-  utils_extension_dart:
-    git: https://github.com/mahdiyami/utils_extension_dart.git
+  json_annotation: ^4.9.0
+  freezed: ^2.5.7
+  freezed_annotation: ^2.4.4
+  shared_preferences: ^2.3.2
+  device_info_plus: ^11.1.1
+
+
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+
   flutter_lints: ^3.0.0
-  build_runner: ^2.4.9
-  flutter_gen_runner:
-  injectable_generator: ^2.6.1
+  injectable_generator: 2.6.2
+  build_runner: ^2.4.13
   json_serializable: ^6.8.0
 
 # For information on the generic Dart part of this file, see the

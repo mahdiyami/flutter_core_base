@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:flutter_core_base/connection_information/connection_information.dart';
 import 'package:injectable/injectable.dart';
+import 'package:flutter_core_base/connection_information/connection_information.dart';
 
 @LazySingleton(as: ConnectionInformation)
 class ConnectionInformationConnectivity implements ConnectionInformation {
